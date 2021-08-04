@@ -1,0 +1,17 @@
+{
+	"Infosys_skills": ["Developed Regression  Automation Framework in Java.", "Developed crucial reports in Java and automatic mail sending.","Worked on Oracle and graph db.","Developed Rest Api in Java.","Worked on React js.","Worked on Sonar fixes and Junits.","Developed Shell scripts for running of jar file on server.","Have daily interaction with clients."],
+	"Projects":[
+		{"Corona Vaccination": "Its a website where people can register for vaccination. It will show the data that how many people are vaccinated, active number of cases, number of deaths and some other information."},
+		{"Infosys Mysore": "Developed a photo gallery, displaying photos of Infosys Mysore campus."},
+		{"Mini Flipkart": "Shopping application for adding and removing items from cart with login and logout components"},
+		{"MovieBook": "Adding deleting and rating movies with searching, sorting and pagination"},
+		{"Store":"A simple application for buying items and showing the number of items present"},
+		{"Invitation":"It shows the number of invitation you received. There is a color coding for the invitations along with login logout components."},
+		{"Calculator":"A simple calculator that performs basic calculations and also displays the history."},
+		{"GithubFilter":"This application is for searching projects that are present in github repository of any person."},
+		{"Contact List":"Displays contact list, where we can add and remove person from favourites and can also do sorting."}
+	],
+	"FrontendSkills":["React.js","Redux","Javascript","HTML","CSS","JQuery","Axios","TailwindCSS","Bootstrap","JWT","Json"],
+	"Backend Skills":["Java","Java Core","Java EE","Java All","Oracle db","RestApi","SpringBoot","Shell Script","Eclipse RCP Framework"],
+	"Achievements":[{"Patent":["Application Number: 202021049641"]},{"Certification":["React.js Certified by code with Mosh.", "Infosys certified Java developer"]},{"Research Paper":["DOI: https://doi.org/10.21467/ajgr.5.1.55-60","DOI: https://electronicsforu.com/electronics-projects/prototypes/safety-while-filling-air-inside-tyre"]},{"Gate":["Cleared GATE 2019 Registration number: ME19S12007219"]},{"NPTEL":["Completed 4 NPTEL Certifications with a gold medal in 1"]}]
+}

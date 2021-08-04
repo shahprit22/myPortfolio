@@ -1,0 +1,9 @@
+#backgroundImg {
+    background: url("../images/bf_portfolio2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    background-position: center;
+    /* background-position: 50% 50%; */
+    image-rendering: crisp-edges;
+}

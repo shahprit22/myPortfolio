@@ -1,0 +1,60 @@
+#welcome{
+    font-style: italic;
+    opacity: 1;
+    position: relative;
+    top: 9%;
+    animation-name: welcome;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes welcome {
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+#exp{
+    animation-name: experience;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    position: relative;
+    left: 100%;
+    animation-delay: 2s;
+}
+
+@keyframes experience{
+    0%{left:100%}
+    100%{left:0%}
+}
+
+/* .portfolio {
+    animation-name: folio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+@keyframes experience{
+    0%{opacity:0}
+    25%{opacity:1}
+    50%{opacity:0}
+    100%{opacity:1}
+} */
+
+#infy{
+    opacity: 0;
+    animation-name: infosys;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes infosys{
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
