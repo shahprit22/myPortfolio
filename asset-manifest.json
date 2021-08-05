@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.6185a309.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.b18efe39.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.b18efe39.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.54e59b61.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.54e59b61.js.map",
+    "static/css/2.7dbd7c28.chunk.css": "/myPortfolio/static/css/2.7dbd7c28.chunk.css",
+    "static/js/2.86e50de7.chunk.js": "/myPortfolio/static/js/2.86e50de7.chunk.js",
+    "static/js/2.86e50de7.chunk.js.map": "/myPortfolio/static/js/2.86e50de7.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "static/css/2.7dbd7c28.chunk.css.map": "/myPortfolio/static/css/2.7dbd7c28.chunk.css.map",
+    "static/css/main.6185a309.chunk.css.map": "/myPortfolio/static/css/main.6185a309.chunk.css.map",
+    "static/js/2.86e50de7.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.86e50de7.chunk.js.LICENSE.txt",
+    "static/media/Project.css": "/myPortfolio/static/media/bf_portfolio2.df67a7df.gif",
+    "static/media/calculator.5041dcd7.JPG": "/myPortfolio/static/media/calculator.5041dcd7.JPG",
+    "static/media/contactList.ce3c60f6.JPG": "/myPortfolio/static/media/contactList.ce3c60f6.JPG",
+    "static/media/coronaVaccine.b9c4e737.JPG": "/myPortfolio/static/media/coronaVaccine.b9c4e737.JPG",
+    "static/media/githubFilter.34ad1073.JPG": "/myPortfolio/static/media/githubFilter.34ad1073.JPG",
+    "static/media/infosys.4676ccb2.JPG": "/myPortfolio/static/media/infosys.4676ccb2.JPG",
+    "static/media/invitation.7741de7d.JPG": "/myPortfolio/static/media/invitation.7741de7d.JPG",
+    "static/media/miniflipkart.91ee37ea.JPG": "/myPortfolio/static/media/miniflipkart.91ee37ea.JPG",
+    "static/media/movies.c0494679.JPG": "/myPortfolio/static/media/movies.c0494679.JPG",
+    "static/media/naukri.afffc5c7.png": "/myPortfolio/static/media/naukri.afffc5c7.png",
+    "static/media/store.74d7549d.JPG": "/myPortfolio/static/media/store.74d7549d.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54e59b61.js",
+    "static/css/2.7dbd7c28.chunk.css",
+    "static/js/2.86e50de7.chunk.js",
+    "static/css/main.6185a309.chunk.css",
+    "static/js/main.b18efe39.chunk.js"
+  ]
+}
