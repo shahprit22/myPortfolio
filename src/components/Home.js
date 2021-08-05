@@ -6,6 +6,7 @@ import {IoLocationOutline} from 'react-icons/io5'
 import {AiOutlinePhone, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedin} from 'react-icons/fa'
 import {SiIndeed} from 'react-icons/si'
+import naukri from '../images/naukri.png'
 
 function Home() {
     // const initialState = []
@@ -123,7 +124,7 @@ function Home() {
                 <div>
                     <h1 className="text-xl text-center font-bold">Quick Links</h1>
                     <div><a className="flex items-baseline space-x-2" href="https://www.linkedin.com/in/prit-shah" target="_blank" ><span className="pr-2 pt-1"><FaLinkedin /></span>Linkedin</a></div>
-                    <div><a className="flex items-baseline space-x-2" href="#"><span className="pr-2 pt-1"><img src="/images/naukri.png" style={{width: 15}} /></span>Naukri</a></div>
+                    <div><a className="flex items-baseline space-x-2" href="#"><span className="pr-2 pt-1"><img src={naukri} style={{width: 15}} /></span>Naukri</a></div>
                     <div><a className="flex items-baseline space-x-2" href="https://my.indeed.com/p/8ba6l77" target="_blank" ><span className="pr-2 pt-1"><SiIndeed /></span>Indeed</a></div>
                 </div>
                 <div className="italic">

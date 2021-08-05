@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {FaFacebook, FaLinkedin} from 'react-icons/fa'
+import {FaLinkedin} from 'react-icons/fa'
 import {SiIndeed} from 'react-icons/si'
+import naukri from '../images/naukri.png'
 
 function Navbar() {
     return (
@@ -13,7 +14,7 @@ function Navbar() {
             </div>
             <div className="flex space-x-3 items-center pr-4">
                 <a href="https://www.linkedin.com/in/prit-shah" target="_blank" className="text-2xl font-extrabold transform hover:scale-125 active:bg-gray-400"><FaLinkedin /></a>
-                <a href="#" className="text-2xl font-extrabold transform hover:scale-125 active:bg-gray-400"><img src="/images/naukri.png" style={{width: 25}} /></a>
+                <a href="#" className="text-2xl font-extrabold transform hover:scale-125 active:bg-gray-400"><img src={naukri} style={{width: 25}} /></a>
                 <a href="https://my.indeed.com/p/8ba6l77" target="_blank" className="text-2xl font-extrabold transform hover:scale-125 active:bg-gray-400"><SiIndeed /></a>  
             </div>
             

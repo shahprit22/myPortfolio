@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {AiOutlinePhone, AiOutlineMail} from 'react-icons/ai'
 import {FaWpforms, FaSmile, FaArrowAltCircleDown} from 'react-icons/fa'
 import {ImSad2} from 'react-icons/im'

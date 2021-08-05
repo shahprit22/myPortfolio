@@ -1,6 +1,16 @@
 import React from 'react'
 import './Project.css'
 import Fade from 'react-reveal/Fade';
+import coronaVaccine from '../images/coronaVaccine.JPG'
+import infosys from '../images/infosys.JPG'
+import miniflipkart from '../images/miniflipkart.JPG'
+import store from '../images/store.JPG'
+import invitation from '../images/invitation.JPG'
+import githubFilter from '../images/githubFilter.JPG'
+import movies from '../images/movies.JPG'
+import calculator from '../images/calculator.JPG'
+import contactList from '../images/contactList.JPG'
+
 
 function Projects() {
     return (
@@ -24,7 +34,7 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            <img src="/images/coronaVaccine.JPG" className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
+                            <img src={coronaVaccine} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
@@ -46,7 +56,7 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            <img src="/images/infosys.JPG" className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
+                            <img src={infosys} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
@@ -68,7 +78,7 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            <img src="/images/miniflipkart.JPG" className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
+                            <img src={miniflipkart} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
@@ -90,7 +100,7 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            <img src="/images/store.JPG" className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
+                            <img src={store} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
@@ -112,7 +122,7 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            <img src="/images/invitation.JPG" className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
+                            <img src={invitation} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
@@ -134,7 +144,7 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            <img src="/images/movies.JPG" className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
+                            <img src={movies} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
@@ -156,7 +166,7 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            <img src="/images/calculator.JPG" className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
+                            <img src={calculator} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
@@ -178,7 +188,7 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            <img src="/images/githubFilter.JPG" className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
+                            <img src={githubFilter} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
@@ -200,7 +210,7 @@ function Projects() {
                             </div>
                         </div>
                         <div>
-                            <img src="/images/contactList.JPG" className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
+                            <img src={contactList} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
