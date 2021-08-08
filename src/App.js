@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 import Dropdown from './components/Dropdown';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
   const settoggle = () =>{
     setIsOpen(!isOpen);
   }
