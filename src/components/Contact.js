@@ -41,7 +41,7 @@ function Contact() {
     }
     return (
         <div>
-            <div className="h-14"></div>
+            <div className="h-14 bg-gray-700 text-gray-50"></div>
             <div className="bg-gray-700 text-gray-50 pt-4 pb-4">
                 <h1 className="pt-2 pl-3 font-extrabold uppercase text-3xl">Contact Details</h1>
                 <div className="pl-4 pt-2 italic">

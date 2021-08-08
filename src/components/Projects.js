@@ -20,21 +20,21 @@ function Projects() {
 
             <Fade left duration={3000}>
                 <div className="flex flex-col items-center mt-6">
-                    <div className="h-56 w-1/2 bg-gray-900 border border-gray-200 rounded-xl relative flex transform hover:scale-110 mr-72">
-                        <div className="w-3/5 pl-2 pt-1 pr-1 relative">
+                    <div className="h-card w-80 bg-gray-900 border border-gray-200 rounded-xl relative flex flex-col transform hover:scale-110 lg:flex-row-reverse lg:h-60 lg:w-1/2 lg:mr-72 xl:h-56">
+                        <div className="h-48 my-2 mx-1 border-2 flex border-gray-100 lg:top-4 lg:w-2/5 lg:h-5/6 lg:right-0">
+                            <img src={coronaVaccine} className="w-full" />
+                        </div>
+                        <div className="w-full pl-2 pr-1 lg:w-3/5 lg:pt-1">
                             <h1 className="text-xl font-extrabold text-white">Corona Vaccination</h1>
                             <p className="italic text-gray-200 font-serif">Its a website where people can register for vaccination. It will show the data that how many people are vaccinated, active number of cases, number of deaths and some other information.</p>
                             <div>
                                 <span className="text-gray-100 text-base font-bold">Used: </span>
                                 <span className="text-gray-100">React, Java, Springboot, Oracle db, JWT, RestApi, Axios, Bootstrap</span>
                             </div>
-                            <div className="absolute bottom-3">
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Link</a>
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Github Link</a>
+                            <div className="absolute bottom-2">
+                                <a href="#" className="link" >Link</a>
+                                <a href="#" className="githublink" >Github Link</a>
                             </div>
-                        </div>
-                        <div>
-                            <img src={coronaVaccine} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
@@ -42,175 +42,175 @@ function Projects() {
 
             <Fade right duration={3000}>
                 <div className="flex flex-col items-center mt-6">
-                    <div className="h-56 w-1/2 bg-gray-900 border border-gray-200 rounded-xl relative flex transform hover:scale-110 ml-72">
-                        <div className="w-3/5 pl-2 pt-1 pr-1 relative">
+                    <div className="h-card w-80 bg-gray-900 border border-gray-200 rounded-xl relative flex flex-col transform hover:scale-110 lg:flex-row-reverse lg:h-60 lg:w-1/2 lg:ml-72 xl:h-56">
+                        <div className="h-48 my-2 mx-1 border-2 flex border-gray-100 lg:top-4 lg:w-2/5 lg:h-5/6 lg:right-0">
+                            <img src={infosys} className="w-full" />
+                        </div>
+                        <div className="w-full pl-2 pr-1 lg:w-3/5 lg:pt-1">
                             <h1 className="text-xl font-extrabold text-white">Infosys PhotoGalary</h1>
                             <p className="italic text-gray-200 font-serif">It is a Photo Galary for dispalying images of Infosys Mysore campus.</p>
                             <div>
                                 <span className="text-gray-100 text-base font-bold">Used: </span>
                                 <span className="text-gray-100">React, Bootstrap, Javascript, CSS, HTML</span>
                             </div>
-                            <div className="absolute bottom-3">
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Link</a>
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Github Link</a>
+                            <div className="absolute bottom-2">
+                                <a href="#" className="link" >Link</a>
+                                <a href="#" className="githublink" >Github Link</a>
                             </div>
-                        </div>
-                        <div>
-                            <img src={infosys} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
             </Fade>
 
-            <Fade left duration={3000} delay={100}>
+            <Fade left duration={3000}>
                 <div className="flex flex-col items-center mt-6">
-                    <div className="h-56 w-1/2 bg-gray-900 border border-gray-200 rounded-xl relative flex transform hover:scale-110 mr-72">
-                        <div className="w-3/5 pl-2 pt-1 pr-1 relative">
+                    <div className="h-card w-80 bg-gray-900 border border-gray-200 rounded-xl relative flex flex-col transform hover:scale-110 lg:flex-row-reverse lg:h-60 lg:w-1/2 lg:mr-72 xl:h-56">
+                        <div className="h-48 my-2 mx-1 border-2 flex border-gray-100 lg:top-4 lg:w-2/5 lg:h-5/6 lg:right-0">
+                            <img src={miniflipkart} className="w-full" />
+                        </div>
+                        <div className="w-full pl-2 pr-1 lg:w-3/5 lg:pt-1">
                             <h1 className="text-xl font-extrabold text-white">Mini Flipkart</h1>
                             <p className="italic text-gray-200 font-serif">Mini version of Filpkart that implements login logout compmonents and also adding and removing items from cart. Showing and disabling the add to cart if the item is out of stock.</p>
                             <div>
                                 <span className="text-gray-100 text-base font-bold">Used: </span>
                                 <span className="text-gray-100">React, Javascript, Bootstrap, CSS, HTML, Local Storage, React Router</span>
                             </div>
-                            <div className="absolute bottom-3">
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Link</a>
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Github Link</a>
+                            <div className="absolute bottom-2">
+                                <a href="#" className="link" >Link</a>
+                                <a href="#" className="githublink" >Github Link</a>
                             </div>
-                        </div>
-                        <div>
-                            <img src={miniflipkart} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
             </Fade>
-
-            <Fade right duration={3000} delay={100}>
+            
+            <Fade right duration={3000}>
                 <div className="flex flex-col items-center mt-6">
-                    <div className="h-56 w-1/2 bg-gray-900 border border-gray-200 rounded-xl relative flex transform hover:scale-110 ml-72">
-                        <div className="w-3/5 pl-2 pt-1 pr-1 relative">
+                    <div className="h-card w-80 bg-gray-900 border border-gray-200 rounded-xl relative flex flex-col transform hover:scale-110 lg:flex-row-reverse lg:h-60 lg:w-1/2 lg:ml-72 xl:h-56">
+                        <div className="h-48 my-2 mx-1 border-2 flex border-gray-100 lg:top-4 lg:w-2/5 lg:h-5/6 lg:right-0">
+                            <img src={store} className="w-full" />
+                        </div>
+                        <div className="w-full pl-2 pr-1 lg:w-3/5 lg:pt-1">
                             <h1 className="text-xl font-extrabold text-white">Store</h1>
                             <p className="italic text-gray-200 font-serif">A simple application for buying items and showing the number of items present. This application makes use of Redux.</p>
                             <div>
                                 <span className="text-gray-100 text-base font-bold">Used: </span>
                                 <span className="text-gray-100">React, Redux, Hooks, Javascript, CSS, HTML</span>
                             </div>
-                            <div className="absolute bottom-3">
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Link</a>
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Github Link</a>
+                            <div className="absolute bottom-2">
+                                <a href="#" className="link" >Link</a>
+                                <a href="#" className="githublink" >Github Link</a>
                             </div>
-                        </div>
-                        <div>
-                            <img src={store} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
             </Fade>
-
-            <Fade left duration={3000} delay={100}>
+            
+            <Fade left duration={3000}>
                 <div className="flex flex-col items-center mt-6">
-                    <div className="h-56 w-1/2 bg-gray-900 border border-gray-200 rounded-xl relative flex transform hover:scale-110 mr-72">
-                        <div className="w-3/5 pl-2 pt-1 pr-1 relative">
-                            <h1 className="text-xl font-extrabold text-white">Invitation</h1>
+                    <div className="h-card w-80 bg-gray-900 border border-gray-200 rounded-xl relative flex flex-col transform hover:scale-110 lg:flex-row-reverse lg:h-60 lg:w-1/2 lg:mr-72 xl:h-56">
+                        <div className="h-48 my-2 mx-1 border-2 flex border-gray-100 lg:top-4 lg:w-2/5 lg:h-5/6 lg:right-0">
+                            <img src={invitation} className="w-full" />
+                        </div>
+                        <div className="w-full pl-2 pr-1 lg:w-3/5 lg:pt-1">
+                            <h1 className="text-xl font-extrabold text-white">Invitations</h1>
                             <p className="italic text-gray-200 font-serif">It shows the number of invitation you received. There is a color coding for the invitations which user has read. It aslo contains login logout components.</p>
                             <div>
                                 <span className="text-gray-100 text-base font-bold">Used: </span>
                                 <span className="text-gray-100">React, Bootstrap, Javascript, CSS, HTML</span>
                             </div>
-                            <div className="absolute bottom-3">
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Link</a>
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Github Link</a>
+                            <div className="absolute bottom-2">
+                                <a href="#" className="link" >Link</a>
+                                <a href="#" className="githublink" >Github Link</a>
                             </div>
-                        </div>
-                        <div>
-                            <img src={invitation} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
             </Fade>
 
-            <Fade right duration={3000} delay={100}>
+            <Fade right duration={3000}>
                 <div className="flex flex-col items-center mt-6">
-                    <div className="h-56 w-1/2 bg-gray-900 border border-gray-200 rounded-xl relative flex transform hover:scale-110 ml-72">
-                        <div className="w-3/5 pl-2 pt-1 pr-1 relative">
+                    <div className="h-card w-80 bg-gray-900 border border-gray-200 rounded-xl relative flex flex-col transform hover:scale-110 lg:flex-row-reverse lg:h-60 lg:w-1/2 lg:ml-72 xl:h-56">
+                        <div className="h-48 my-2 mx-1 border-2 flex border-gray-100 lg:top-4 lg:w-2/5 lg:h-5/6 lg:right-0">
+                            <img src={movies} className="w-full" />
+                        </div>
+                        <div className="w-full pl-2 pr-1 lg:w-3/5 lg:pt-1">
                             <h1 className="text-xl font-extrabold text-white">MoviesBook</h1>
                             <p className="italic text-gray-200 font-serif">Its a website where we can like, rate, add, delete and do many things with the list of movies displayed. It contains searching, filtering, sorting and pagination.</p>
                             <div>
                                 <span className="text-gray-100 text-base font-bold">Used: </span>
                                 <span className="text-gray-100">React, JWT, lodash, Router, Axios, Bootstrap, Javascript, CSS, HTML</span>
                             </div>
-                            <div className="absolute bottom-3">
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Link</a>
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Github Link</a>
+                            <div className="absolute bottom-2">
+                                <a href="#" className="link" >Link</a>
+                                <a href="#" className="githublink" >Github Link</a>
                             </div>
-                        </div>
-                        <div>
-                            <img src={movies} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
             </Fade>
-
-            <Fade left duration={3000} delay={100}>
+            
+            <Fade left duration={3000}>
                 <div className="flex flex-col items-center mt-6">
-                    <div className="h-56 w-1/2 bg-gray-900 border border-gray-200 rounded-xl relative flex transform hover:scale-110 mr-72">
-                        <div className="w-3/5 pl-2 pt-1 pr-1 relative">
+                    <div className="h-card w-80 bg-gray-900 border border-gray-200 rounded-xl relative flex flex-col transform hover:scale-110 lg:flex-row-reverse lg:h-60 lg:w-1/2 lg:mr-72 xl:h-56">
+                        <div className="h-48 my-2 mx-1 border-2 flex border-gray-100 lg:top-4 lg:w-2/5 lg:h-5/6 lg:right-0">
+                            <img src={calculator} className="w-full" />
+                        </div>
+                        <div className="w-full pl-2 pr-1 lg:w-3/5 lg:pt-1">
                             <h1 className="text-xl font-extrabold text-white">Calculator</h1>
                             <p className="italic text-gray-200 font-serif">A simple calculator that performs basic calculations and also displays the history.</p>
                             <div>
                                 <span className="text-gray-100 text-base font-bold">Used: </span>
                                 <span className="text-gray-100">React, Javascript, CSS, HTML, local Storage</span>
                             </div>
-                            <div className="absolute bottom-3">
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Link</a>
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Github Link</a>
+                            <div className="absolute bottom-2">
+                                <a href="#" className="link" >Link</a>
+                                <a href="#" className="githublink" >Github Link</a>
                             </div>
-                        </div>
-                        <div>
-                            <img src={calculator} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
             </Fade>
 
-            <Fade right duration={3000} delay={100}>
+            <Fade right duration={3000}>
                 <div className="flex flex-col items-center mt-6">
-                    <div className="h-56 w-1/2 bg-gray-900 border border-gray-200 rounded-xl relative flex transform hover:scale-110 ml-72">
-                        <div className="w-3/5 pl-2 pt-1 pr-1 relative">
+                    <div className="h-card w-80 bg-gray-900 border border-gray-200 rounded-xl relative flex flex-col transform hover:scale-110 lg:flex-row-reverse lg:h-60 lg:w-1/2 lg:ml-72 xl:h-56">
+                        <div className="h-48 my-2 mx-1 border-2 flex border-gray-100 lg:top-4 lg:w-2/5 lg:h-5/6 lg:right-0">
+                            <img src={githubFilter} className="w-full" />
+                        </div>
+                        <div className="w-full pl-2 pr-1 lg:w-3/5 lg:pt-1">
                             <h1 className="text-xl font-extrabold text-white">GithubFilter</h1>
                             <p className="italic text-gray-200 font-serif">This application is basicaly for searching that what all projects are present in github repository of a particular person.</p>
                             <div>
                                 <span className="text-gray-100 text-base font-bold">Used: </span>
                                 <span className="text-gray-100">React, Javascript, HTML, CSS</span>
                             </div>
-                            <div className="absolute bottom-3">
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Link</a>
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Github Link</a>
+                            <div className="absolute bottom-2">
+                                <a href="#" className="link" >Link</a>
+                                <a href="#" className="githublink" >Github Link</a>
                             </div>
-                        </div>
-                        <div>
-                            <img src={githubFilter} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>
             </Fade>
 
-            <Fade left duration={3000} delay={100}>
+            <Fade left duration={3000}>
                 <div className="flex flex-col items-center mt-6">
-                    <div className="h-56 w-1/2 bg-gray-900 border border-gray-200 rounded-xl relative flex transform hover:scale-110 mr-72">
-                        <div className="w-3/5 pl-2 pt-1 pr-1 relative">
+                    <div className="h-card w-80 bg-gray-900 border border-gray-200 rounded-xl relative flex flex-col transform hover:scale-110 lg:flex-row-reverse lg:h-60 lg:w-1/2 lg:mr-72 xl:h-56">
+                        <div className="h-48 my-2 mx-1 border-2 flex border-gray-100 lg:top-4 lg:w-2/5 lg:h-5/6 lg:right-0">
+                            <img src={contactList}  />
+                        </div>
+                        <div className="w-full pl-2 pr-1 lg:w-3/5 lg:pt-1">
                             <h1 className="text-xl font-extrabold text-white">Contact List</h1>
                             <p className="italic text-gray-200 font-serif">Displays contact list, where we can add and remove person from favourites and can also do sorting.</p>
                             <div>
                                 <span className="text-gray-100 text-base font-bold">Used: </span>
                                 <span className="text-gray-100">React, Javascript, HTML, CSS</span>
                             </div>
-                            <div className="absolute bottom-3">
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Link</a>
-                                <a href="#" className="border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900" >Github Link</a>
+                            <div className="absolute bottom-2">
+                                <a href="#" className="link" >Link</a>
+                                <a href="#" className="githublink" >Github Link</a>
                             </div>
-                        </div>
-                        <div>
-                            <img src={contactList} className="w-2/5 h-5/6 top-4 mr-6 absolute border-2 border-gray-100" />
                         </div>
                     </div>
                 </div>

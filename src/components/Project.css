@@ -7,3 +7,15 @@
     /* background-position: 50% 50%; */
     image-rendering: crisp-edges;
 }
+
+#card{
+    height: 455px;
+}
+
+.link{
+    @apply border-2 text-gray-100 border-gray-100 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900;
+}
+
+.githublink{
+    @apply border-2 text-gray-100 border-gray-100 ml-3 pt-1 pb-1 pl-2 pr-3 font-bold rounded-md hover:bg-gray-100 hover:text-gray-900;
+}

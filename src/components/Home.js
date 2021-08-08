@@ -8,7 +8,7 @@ import {FaLinkedin} from 'react-icons/fa'
 import {SiIndeed} from 'react-icons/si'
 import naukri from '../images/naukri.png'
 
-function Home() {
+function Home({isOpen}) {
     // const initialState = []
     const [infySkills, setinfySkills] = useState([])
     const [projects, setprojects] = useState([])
@@ -30,11 +30,13 @@ function Home() {
     // },4000)
     return (
         <div className="flex flex-col">
-            <div className="text-red-800 text-4xl space-y-4 font-serif font-extrabold flex flex-col justify-center bg-gradient-to-r from-blue-100 via-green-200 to-blue-100 h-96">
-                <h1 className="self-center" id="welcome">Hello,</h1>
-                <h1 className="self-center" id="welcome">I am Prit Shah and</h1>
-                <h1 className="self-center" id="welcome">I welcome you to my</h1>
-                <h1 className="self-center" id="welcome">Portfolio</h1>
+            <div className="relative">
+                <div className="text-red-800 text-4xl space-y-4 font-serif font-extrabold flex flex-col justify-center bg-gradient-to-r from-blue-100 via-green-200 to-blue-100 h-96">
+                    <h1 className="self-center" id="welcome">Hello,</h1>
+                    <h1 className="self-center" id="welcome">I am Prit Shah and</h1>
+                    <h1 className="self-center" id="welcome">I welcome you to my</h1>
+                    <h1 className="self-center" id="welcome">Portfolio</h1>
+                </div>
             </div>
                 
             <div className="bg-gradient-to-r from-blue-100 via-green-200 to-blue-100 h-auto pb-4">
@@ -116,10 +118,10 @@ function Home() {
                     )}
                 </div>
             </div>
-            <div className="flex justify-around bg-gray-700 text-gray-50 pt-4 pb-4">
+            <div className="flex flex-col items-center space-y-2 bg-gray-700 text-gray-50 pt-4 pb-4 md:flex-row md:justify-around md:items-start">
                 <div>
                     <h1 className="text-xl text-center font-bold">About Me</h1>
-                    <p className="italic w-96">I am passionate about learning and working in new technologies. I have been woking in React and Java since 2 years and have aquire profound knowledge in both. I also keep on learning and upgrading myself with new technologies. If given a chance to work with you I will leave no stone unturned.</p>
+                    <p className="italic md:w-96">I am passionate about learning and working in new technologies. I have been woking in React and Java since 2 years and have aquire profound knowledge in both. I also keep on learning and upgrading myself with new technologies. If given a chance to work with you I will leave no stone unturned.</p>
                 </div>
                 <div>
                     <h1 className="text-xl text-center font-bold">Quick Links</h1>
